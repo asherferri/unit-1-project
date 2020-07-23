@@ -1,215 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <div class="allGameContainer" id="allGameContainer">
-        <div class="mazeRunner" id="mazeRunner"></div>
-            <div class="mazeContainer" id="mazeContainer">
-                
-                <div class="cell" data-cell-index="0"></div>
-                <div class="cell" data-cell-index="1"></div>
-                <div class="cell" data-cell-index="2"></div>
-                <div class="cell" data-cell-index="3"></div>
-                <div class="cell" data-cell-index="4"></div>
-                <div class="cell" data-cell-index="5"></div>
-                <div class="cell" data-cell-index="6"></div>
-                <div class="cell" data-cell-index="7"></div>
-                <div class="cell" data-cell-index="8"></div>
-                <div class="cell" data-cell-index="9"></div>
-                <div class="cell" data-cell-index="10"></div>
-                <div class="cell" data-cell-index="11"></div>
-                <div class="cell" data-cell-index="12"></div>
-                <div class="cell" data-cell-index="13"></div>
-                <div class="cell" data-cell-index="14"></div>
-                <div class="cell" data-cell-index="15"></div>
-                <div class="cell" data-cell-index="16"></div>
-                <div class="cell" data-cell-index="17"></div>
-                <div class="cell" data-cell-index="18"></div>
-                <div class="cell" data-cell-index="19"></div>
-                <div class="cell" data-cell-index="20"></div>
-                <div class="cell" data-cell-index="21"></div>
-                <div class="cell" data-cell-index="22"></div>
-                <div class="cell" data-cell-index="23"></div>
-                <div class="cell" data-cell-index="24"></div>
-                <div class="cell" data-cell-index="25"></div>
-                <div class="cell" data-cell-index="26"></div>
-                <div class="cell" data-cell-index="27"></div>
-                <div class="cell" data-cell-index="28"></div>
-                <div class="cell" data-cell-index="29"></div> 
-                <div class="cell" data-cell-index="30"></div>
-                <div class="cell" data-cell-index="31"></div>
-                <div class="cell" data-cell-index="32"></div>
-                <div class="cell" data-cell-index="33"></div>
-                <div class="cell" data-cell-index="34"></div>
-                <div class="cell" data-cell-index="35"></div>
-                <div class="cell" data-cell-index="36"></div>
-                <div class="cell" data-cell-index="37"></div>
-                <div class="cell" data-cell-index="38"></div>
-                <div class="cell" data-cell-index="39"></div>
-                <div class="cell" data-cell-index="40"></div>
-                <div class="cell" data-cell-index="41"></div>
-                <div class="cell" data-cell-index="42"></div>
-                <div class="cell" data-cell-index="43"></div>
-                <div class="cell" data-cell-index="44"></div> 
-                <div class="cell" data-cell-index="45"></div>
-                <div class="cell" data-cell-index="46"></div>
-                <div class="cell" data-cell-index="47"></div>
-                <div class="cell" data-cell-index="48"></div>
-                <div class="cell" data-cell-index="49"></div>
-                <div class="cell" data-cell-index="50"></div>
-                <div class="cell" data-cell-index="51"></div>
-                <div class="cell" data-cell-index="52"></div>
-                <div class="cell" data-cell-index="53"></div>
-                <div class="cell" data-cell-index="54"></div>
-                <div class="cell" data-cell-index="55"></div>
-                <div class="cell" data-cell-index="56"></div>
-                <div class="cell" data-cell-index="57"></div>
-                <div class="cell" data-cell-index="58"></div>
-                <div class="cell" data-cell-index="59"></div> 
-                <div class="cell" data-cell-index="60"></div>
-                <div class="cell" data-cell-index="61"></div>
-                <div class="cell" data-cell-index="62"></div>
-                <div class="cell" data-cell-index="63"></div>
-                <div class="cell" data-cell-index="64"></div>
-                <div class="cell" data-cell-index="65"></div>
-                <div class="cell" data-cell-index="66"></div>
-                <div class="cell" data-cell-index="67"></div>
-                <div class="cell" data-cell-index="68"></div>
-                <div class="cell" data-cell-index="69"></div>
-                <div class="cell" data-cell-index="70"></div>
-                <div class="cell" data-cell-index="71"></div>
-                <div class="cell" data-cell-index="72"></div>
-                <div class="cell" data-cell-index="73"></div>
-                <div class="cell" data-cell-index="74"></div> 
-                <div class="cell" data-cell-index="75"></div>
-                <div class="cell" data-cell-index="76"></div>
-                <div class="cell" data-cell-index="77"></div>
-                <div class="cell" data-cell-index="78"></div>
-                <div class="cell" data-cell-index="79"></div>
-                <div class="cell" data-cell-index="80"></div>
-                <div class="cell" data-cell-index="81"></div>
-                <div class="cell" data-cell-index="82"></div>
-                <div class="cell" data-cell-index="83"></div>
-                <div class="cell" data-cell-index="84"></div>
-                <div class="cell" data-cell-index="85"></div>
-                <div class="cell" data-cell-index="86"></div>
-                <div class="cell" data-cell-index="87"></div>
-                <div class="cell" data-cell-index="88"></div>
-                <div class="cell" data-cell-index="89"></div>
-                <div class="cell" data-cell-index="90"></div>
-                <div class="cell" data-cell-index="91"></div>
-                <div class="cell" data-cell-index="92"></div>
-                <div class="cell" data-cell-index="93"></div>
-                <div class="cell" data-cell-index="94"></div>
-                <div class="cell" data-cell-index="95"></div>
-                <div class="cell" data-cell-index="96"></div>
-                <div class="cell" data-cell-index="97"></div>
-                <div class="cell" data-cell-index="98"></div>
-                <div class="cell" data-cell-index="99"></div>
-                <div class="cell" data-cell-index="100"></div>
-                <div class="cell" data-cell-index="101"></div>
-                <div class="cell" data-cell-index="102"></div>
-                <div class="cell" data-cell-index="103"></div>
-                <div class="cell" data-cell-index="104"></div> 
-                <div class="cell" data-cell-index="105"></div>
-                <div class="cell" data-cell-index="106"></div>
-                <div class="cell" data-cell-index="107"></div>
-                <div class="cell" data-cell-index="108"></div>
-                <div class="cell" data-cell-index="109"></div>
-                <div class="cell" data-cell-index="110"></div>
-                <div class="cell" data-cell-index="111"></div>
-                <div class="cell" data-cell-index="112"></div>
-                <div class="cell" data-cell-index="113"></div>
-                <div class="cell" data-cell-index="114"></div>
-                <div class="cell" data-cell-index="115"></div>
-                <div class="cell" data-cell-index="116"></div>
-                <div class="cell" data-cell-index="117"></div>
-                <div class="cell" data-cell-index="118"></div>
-                <div class="cell" data-cell-index="119"></div> 
-                <div class="cell" data-cell-index="120"></div>
-                <div class="cell" data-cell-index="121"></div>
-                <div class="cell" data-cell-index="122"></div>
-                <div class="cell" data-cell-index="123"></div>
-                <div class="cell" data-cell-index="124"></div>
-                <div class="cell" data-cell-index="125"></div>
-                <div class="cell" data-cell-index="126"></div>
-                <div class="cell" data-cell-index="127"></div>
-                <div class="cell" data-cell-index="128"></div>
-                <div class="cell" data-cell-index="129"></div>
-                <div class="cell" data-cell-index="130"></div>
-                <div class="cell" data-cell-index="131"></div>
-                <div class="cell" data-cell-index="132"></div>
-                <div class="cell" data-cell-index="133"></div>
-                <div class="cell" data-cell-index="134"></div> 
-                <div class="cell" data-cell-index="135"></div>
-                <div class="cell" data-cell-index="136"></div>
-                <div class="cell" data-cell-index="137"></div>
-                <div class="cell" data-cell-index="138"></div>
-                <div class="cell" data-cell-index="139"></div>
-                <div class="cell" data-cell-index="140"></div>
-                <div class="cell" data-cell-index="141"></div>
-                <div class="cell" data-cell-index="142"></div>
-                <div class="cell" data-cell-index="143"></div>
-                <div class="cell" data-cell-index="144"></div>
-                <div class="cell" data-cell-index="145"></div>
-                <div class="cell" data-cell-index="146"></div>
-                <div class="cell" data-cell-index="147"></div>
-                <div class="cell" data-cell-index="148"></div>
-                <div class="cell" data-cell-index="149"></div>
-                <div class="cell" data-cell-index="150"></div>
-                <div class="cell" data-cell-index="151"></div>
-                <div class="cell" data-cell-index="152"></div>
-                <div class="cell" data-cell-index="153"></div>
-                <div class="cell" data-cell-index="154"></div>
-                <div class="cell" data-cell-index="155"></div>
-                <div class="cell" data-cell-index="156"></div>
-                <div class="cell" data-cell-index="157"></div>
-                <div class="cell" data-cell-index="158"></div>
-                <div class="cell" data-cell-index="159"></div>
-                <div class="cell" data-cell-index="160"></div>
-                <div class="cell" data-cell-index="161"></div>
-                <div class="cell" data-cell-index="162"></div>
-                <div class="cell" data-cell-index="163"></div>
-                <div class="cell" data-cell-index="164"></div>
-                <div class="cell" data-cell-index="165"></div>
-                <div class="cell" data-cell-index="166"></div>
-                <div class="cell" data-cell-index="167"></div>
-                <div class="cell" data-cell-index="168"></div>
-                <div class="cell" data-cell-index="169"></div>
-                <div class="cell" data-cell-index="170"></div>
-                <div class="cell" data-cell-index="171"></div>
-                <div class="cell" data-cell-index="172"></div>
-                <div class="cell" data-cell-index="173"></div>
-                <div class="cell" data-cell-index="174"></div>
-                <div class="cell" data-cell-index="175"></div>
-                <div class="cell" data-cell-index="176"></div>
-                <div class="cell" data-cell-index="177"></div>
-                <div class="cell" data-cell-index="178"></div>
-                <div class="cell" data-cell-index="179"></div> 
-                <div class="cell" data-cell-index="180"></div>
-                <div class="cell" data-cell-index="181"></div>
-                <div class="cell" data-cell-index="182"></div>
-                <div class="cell" data-cell-index="183"></div>
-                <div class="cell" data-cell-index="184"></div>
-                <div class="cell" data-cell-index="185"></div>
-                <div class="cell" data-cell-index="186"></div>
-                <div class="cell" data-cell-index="187"></div>
-                <div class="cell" data-cell-index="188"></div>
-                <div class="cell" data-cell-index="189"></div>
-                <div class="cell" data-cell-index="190"></div>
-                <div class="cell" data-cell-index="191"></div>
-                <div class="cell" data-cell-index="192"></div>
-                <div class="cell" data-cell-index="193"></div>
-                <div class="cell" data-cell-index="194"></div> 
-                <div class="cell" data-cell-index="195"></div>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zim Against The universE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="board" id="board">
+            <div class="inputFeedback" id="inputFeedback">psychoPotatoPineapplePunkster</div>
+            <table>
+                <tr>
+                <td id="00"></td><td id="01"></td><td id="02"></td><td id="03"></td><td id="04"></td><td id="05"></td><td id="06"></td>
+                </tr>
+                <tr>
+                <td id="10"></td><td id="11"></td><td id="12"></td><td id="13"></td><td id="14"></td><td id="15"></td><td id="16"></td>
+                </tr>
+                <tr>
+                <td id="20"></td><td id="21"></td><td id="22"></td><td id="23"></td><td id="24"></td><td id="25"></td><td id="26"></td>
+                </tr>
+                <tr>
+                <td id="30"></td><td id="31"></td><td id="32"></td><td id="33"></td><td id="34"></td><td id="35"></td><td id="36"></td>
+                </tr>
+                <tr>
+                <td id="40"></td><td id="41"></td><td id="42"></td><td id="43"></td><td id="44"></td><td id="45"></td><td id="46"></td>
+                </tr>
+                <tr>
+                <td id="50"></td><td id="51"></td><td id="52"></td><td id="53"></td><td id="54"></td><td id="55"></td><td id="56"></td>
+                </tr>
+                <tr>
+                <td id="60"></td><td id="61"></td><td id="62"></td><td id="63"></td><td id="64"></td><td id="65"></td><td id="66"></td>
+                </tr>
+            </table>
+            <form>
+                <input type="text" id="userInput" placeholder="InputCoordinates">
+                <input type="button" id="shoot" value="ShoooOOOOoOOT!">
+            </form>
+        </div>
 
-<script src="main.js"></script>
-</body>
+        <script src="main.js"></script>
+    </body>
 </html>

@@ -1,70 +1,49 @@
 body {
-    font-family: 'Roboto Mono', monospace;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    /* background: url('https://wallpaperaccess.com/full/1876407.png'); */
+    background: purple;
 }
 
-.mazeRunner {
-    height: 30px;
-    width: 30px;
-    background-color: rgba(1, 1, 1, 1);
-    /*background-image: url('images/art-zimpondering-invader-zim-115632198040p8mlld0nd.png');*/
-    background-size: cover;
-    background-position: center center;
+.board {
+    /* width: 100vw; //will add later for adaptability enough headachas now
+    height: 100vw; */
 
+    width: 1000px;
+    height: 850px;
+    margin: auto;
+    border: 1px solid rebeccapurple;
+    position: relative;
 }
 
-.mr-kitty {
-    height: 75px;
-    width: 75px;
+.inputFeedback {
     position: absolute;
-    background-image: url('./img/mr-kitty.png');
-    background-size: cover;
-    background-position: center center;
-  }
-
-.mazeContainer { 
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: repeat(14, auto);
-   
-    /* background-image: url('images/DipUdEpU8AA7S5B.jpg'); */
-    background-size: cover;
-    background-position: center center;
+    bottom: 50px;
+    left: 400px;
+    color: white;
 }
 
-.cell {
-    text-align: center;
-    font-size: 1px;
-    font-family: 'Roboto Mono', monospace;
-    color: purple;
-    line-height: 100px;
-    font-size: 60px;
-    width: 30px;
-    height: 30px;
-    /* background-color: green; */
-    border: 1px solid purple;
-    cursor: pointer;
-
-    
-
-
+table {
+    position: absolute;
+    left: 170px;
+    top: 98px;
+    border-spacing: 0px;
 }
 
-/* .toggleCell {
-    font-family: 'Roboto Mono', monospace;
-    color: purple;
-    line-height: 100px;
-    font-size: 60px;
-    width: 30px;
-    height: 30px;
+td {
+    height: 95px;
+    width: 95px;
+    border: 1px solid white;
+}
+
+form {
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+    padding: 15px;
     background-color: blue;
-    border: 1px solid yellow;
-    cursor: pointer;
-} */
+}
+
+form input {
+    background-color: purple;
+    border-color: rgb(77, 0, 128);
+    font-size: 1em;
+    color: white;
+}
