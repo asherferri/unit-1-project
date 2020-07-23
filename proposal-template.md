@@ -1,30 +1,25 @@
 *** Name / Date ***
 
-# Escape The Maze - Proposal
+# Zim against the universe - Proposal
 
-## What is Escape The Maze?
+## What is Zim against the universe?
 
-A pixel (character), goes through a maze evading the obstacles (walls). The input used will be the mouse cursor. 
-If it touches wall, the user gets 2 more chances, if runs out of chances, game over, and restart.
-Trying to have 7 levels (pre design, activated on previous level completition) to win the game.
+Zim is trying finally conquer not only earth but the universe... reason why u know, worlds are trying to fight back. Problem is that the threat tracking device was developed by Zim fueld by passion, gir took care of graphics and i lended some help with the logic, reason why the system is precise on destruction but won't tell you where the threats are. 
+Your mission is to guess based on knowing the story line, where the attacking devices are located, take them down, and out of existance!
 
 ## Wireframe
 
-
-![Wireframe](./images/propdraft.png)
+![Wireframe](./images/protodraft.png)
 
 ## Initial thoughts on game structure
 
 (Write out what challenges you expect to encounter, or ideas you want to come up with)
-- Maze creation x 7 levels
-- Limiting edges (maybe array of cells that are unvalid and add to a 'lives left' counter)
-- Making a pixel track cursor moves
-- Game logic  - If No wall hit continue.
-              - If walls hit you have 2 more lives.
-                - Prompts of lifes left.
-                - If out of lives, GAME OVER.
-              - If exit achieved = Open next maze.
-              - Repeat loop.
+- Logic
+- User Input of coordinates, how? when? And how to make the environment render visually but work logically (this is my biggest wall)
+- Popups or graphical response for destroyed / wasted ammo
+- Game logic  - If guessed right, threat down.
+                - If the threat occupies multiple cells, keep shooting
+              - Once threats are down, reset.
 
 ## Phases of Completion
 
@@ -38,8 +33,10 @@ WhiteBoard :
    - Tools used on each step
    - Research
 
+NotePad : i use a lot of drafting, drawings, and color codes, i have a yellow and white notepad, one is for drafting and brainstorming, learned resources, and the white one is for my pre/during/post core.
+
 ## Links and Resources
 
-(Anything you've looked up so far or are thinking about using.)
-
 - Google is your best friend.
+- Youtube
+- GA Master Jedi's brainsssss.
