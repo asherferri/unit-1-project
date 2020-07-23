@@ -1,6 +1,4 @@
-# [Name of Game]
-
-Zim against the universe
+# Zim against the universe
 
 ## What is Zim against the universe?
 
