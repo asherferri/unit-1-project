@@ -14,18 +14,30 @@ I'll be using a mix HTML, CSS, JavaScript.
 
 ### Notes on Game Structure
 
-> Code samples, description of challenges you overcame, etc.
+(./images/IMG_0712.JPG)
+(./images/IMG_0713.JPG)
 
-Pending
+- Learning DOM manipulation and key codes.
+- Having a better understanding of object oriented programming
+- Keeping a mental map of variables.
+- The secret powers of ADHD
+- The secret curses of ADHD
 
-## The Making of [Your Game]
+## The Making of Zim against the universe
 
-> Any credits or notes you feel you should add
-
-Pending
+- The RSO for keepin' me sane.
+- DxTr! - Jay - Pete - Mike
+- The Class Crew
+- Long Beach fair swell this past friday before class!
+- lost's Puddle Jumpers shred even in ankle biters!
+- Google - Youtube.
+- JavaScript & Jquery by Jon Duckett.
+- Html & Css by Jon Duckett.
 
 ## Opportunities for Future Growth
 
-> If you had more time to work on your game, what would you do?
-
-Pending
+- Live Hit Counter.
+- Different Ship Sizes Randomized.
+- User Name added.
+- Sounds.
+- Better imaging.
