@@ -1,5 +1,5 @@
 body {
-    background: url("../images/background.png");
+    background: url("background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,13 +65,13 @@ td {
 
 .miss {
     background-position: center;
-    background: url("../images/dib.png");
+    background: url("dib.png");
     background-size: 100% 100%;
 }
 
 .pKaputs {
     background-position: center;
-    background: url("../images/zimKaputs.png");
+    background: url("zimKaputs.png");
     background-size: 100% 100%;
 }
 
