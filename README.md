@@ -14,8 +14,8 @@ I'll be using a mix HTML, CSS, JavaScript.
 
 ### Notes on Game Structure
 
-(./images/IMG_0712.JPG)
-(./images/IMG_0713.JPG)
+!(./images/IMG_0712.JPG)
+!(./images/IMG_0713.JPG)
 
 - Learning DOM manipulation and key codes.
 - Having a better understanding of object oriented programming
