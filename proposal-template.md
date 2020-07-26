@@ -9,7 +9,7 @@ Your mission is to guess based on knowing the story line, where the attacking de
 
 ## Wireframe
 
-![Wireframe](./images/protodraft.png)
+![Wireframe](./assets/protodraft.png)
 
 ## Initial thoughts on game structure
 
