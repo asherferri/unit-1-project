@@ -1,0 +1,78 @@
+body {
+    background: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.board {    
+    width: 1000px;
+    height: 850px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: rgba(1, 1, 1, 0.5);
+}
+
+form {
+    display: flex;
+    padding: 10px;
+	background-color: purple;
+}
+
+.button {
+    position: relative;
+    float: right;
+	background-color: greenyellow;
+	border-color: purple
+    font-size: 1em;
+    color: rgba(2,1,1,1);   
+}
+
+.userInput {
+	background-color: rgb(227, 89, 231);
+	border-color: purple;
+    color: purple;
+}
+
+.inputFeedback {
+    position: relative;
+    margin: 10px;
+    color: white;
+    filter: drop-shadow(1px 1px 0.1px black);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+table {
+    padding: 20px;
+    border-spacing: 7px; 
+    position: relative;
+    margin: auto;
+}
+
+td {
+	width: 70px;
+    height: 70px;
+    border: 1px solid rgb(223, 45, 223);
+    filter: drop-shadow(1px 1px 0.1px black);
+}
+
+.miss {
+    background-position: center;
+    background: url("../images/dib.png");
+    background-size: 100% 100%;
+}
+
+.pKaputs {
+    background-position: center;
+    background: url("../images/zimKaputs.png");
+    background-size: 100% 100%;
+}
+
+/*links dont show up!*/
