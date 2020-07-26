@@ -65,13 +65,13 @@ td {
 
 .miss {
     background-position: center;
-    background: url("dib.png");
+    background: url("./images/dib.png");
     background-size: 100% 100%;
 }
 
 .pKaputs {
     background-position: center;
-    background: url("zimKaputs.png");
+    background: url("./images/zimKaputs.png");
     background-size: 100% 100%;
 }
 
