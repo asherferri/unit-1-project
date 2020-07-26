@@ -1,5 +1,5 @@
 body {
-    background: url("/images/background.png");
+    background: url("https://github.com/asherferri/unit-1-project/blob/master/game/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -65,12 +65,12 @@ td {
 
 .miss {
     background-position: center;
-    background: url("/images/dib.png");
+    background: url("https://github.com/asherferri/unit-1-project/blob/master/game/images/dib.png");
     background-size: 100% 100%;
 }
 
 .pKaputs {
     background-position: center;
-    background: url("/images/zimKaputs.png");
+    background: url("https://github.com/asherferri/unit-1-project/blob/master/game/images/zimKaputs.png");
     background-size: 100% 100%;
 }
