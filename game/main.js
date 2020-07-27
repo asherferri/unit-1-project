@@ -66,7 +66,7 @@ aircraftPositioningRndmzd: function() {
 							console.log("Randomized Fleet coordinates: ")
 								console.log(this.enemyFleet)
 },
-//orientation of the enermy aircraft 1 for vertical anything else for horizonal
+//orientation of the enermy aircraft 1 for horizontal anything 0 vertical
 randomizedAircraftOrientationLocation: function() {
 	let orientationVH = Math.floor(Math.random() * 2)
 		let col
